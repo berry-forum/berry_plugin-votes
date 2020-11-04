@@ -40,10 +40,10 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "FoF Polls",
+      "title": "Kater Votes",
       "icon": {
         "name": "fas fa-signal",
-        "backgroundColor": "#e74c3c",
+        "backgroundColor": "#af6",
         "color": "#fff"
       }
     },

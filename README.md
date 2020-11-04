@@ -1,40 +1,21 @@
-# Polls by FriendsOfFlarum
+# Kater
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/fof/polls.svg)](https://packagist.org/packages/fof/polls) [![OpenCollective](https://img.shields.io/badge/opencollective-fof-blue.svg)](https://opencollective.com/fof/donate) [![Patreon](https://img.shields.io/badge/patreon-datitisev-f96854.svg?logo=patreon)](https://patreon.com/datitisev)
+身受許多年輕族群喜愛的匿名社群平台，立志於成為全台灣最多元、開放的社群平台！
 
-A [Flarum](http://flarum.org) extension. A Flarum extension that adds polls to your discussions.
+![logo](simple-logo.svg)
 
-### Installation
+## 投票表決
 
-Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually with composer:
+以 [MIT License](LICENSE) 發行程式原始碼
 
-```sh
-composer require fof/polls
-```
+    Copyright (c) 2020 Star Inc. (https://starinc.xyz)
+    Copyright (c) 2019 FriendsOfFlarum
+    Copyright (c) 2018 ReFlar
 
-#### Migrating from ReFlar Polls
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Make sure you've updated to the latest `reflar/polls` version and run `php flarum migrate` BEFORE installing `fof/polls`.
-You will not be able to install this extension if you have a version of ReFlar Polls older than v1.3.4 as well.
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-```sh
-$ composer require reflar/polls
-$ php flarum migrate
-$ composer require fof/polls
-```
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Updating
-
-```sh
-composer update fof/polls
-```
-
-### Links
-
-[<img src="https://opencollective.com/fof/donate/button@2x.png?color=blue" height="25" />](https://opencollective.com/fof/donate)
-[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="25" />](https://patreon.com/datitisev)
-
-- [Packagist](https://packagist.org/packages/fof/polls)
-- [GitHub](https://github.com/packages/FriendsOfFlarum/polls)
-
-An extension by [FriendsOfFlarum](https://github.com/FriendsOfFlarum).
+> (c) 2020 [Star Inc.](https://starinc.xyz) with [Kater Team](https://kater.me).
