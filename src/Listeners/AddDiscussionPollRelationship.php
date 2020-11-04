@@ -30,22 +30,9 @@ class AddDiscussionPollRelationship
      */
     public function subscribe(Dispatcher $events)
     {
-        $events->listen(GetModelRelationship::class, [$this, 'getModelRelationship']);
         $events->listen(GetApiRelationship::class, [$this, 'getApiRelationship']);
         $events->listen(WillGetData::class, [$this, 'includeRelationship']);
         $events->listen(Serializing::class, [$this, 'prepareApiAttributes']);
-    }
-
-    /**
-     * @param GetModelRelationship $event
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasOne
-     */
-    public function getModelRelationship(GetModelRelationship $event)
-    {
-        if ($event->isRelationship(Discussion::class, 'poll')) {
-            return $event->model->hasOne(Poll::class);
-        }
     }
 
     /**
