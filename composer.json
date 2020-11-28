@@ -1,6 +1,6 @@
 {
-  "name": "starinc/kater_votes",
-  "description": "Holding a voting for Kater.",
+  "name": "starinc/nex_votes",
+  "description": "Holding a voting for Nex.",
   "type": "flarum-extension",
   "keywords": [
     "discussion",
@@ -40,15 +40,12 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "Kater Votes",
+      "title": "Nex Votes",
       "icon": {
         "name": "fas fa-signal",
-        "backgroundColor": "#af6",
+        "backgroundColor": "#a403d8",
         "color": "#fff"
       }
-    },
-    "flagrow": {
-      "discuss": "https://discuss.flarum.org/d/20586-friendsofflarum-polls"
     }
   }
 }
